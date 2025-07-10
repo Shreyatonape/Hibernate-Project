@@ -4,7 +4,7 @@ A console-based application built using **Core Java**, **JDBC**, and **PostgreSQ
 
 ---
 
- Features
+ **Features
 
 - **Add Employee**: Add a new employee record to the database.
 - **View All Employees**: Fetch and display all employee records.
@@ -15,7 +15,7 @@ A console-based application built using **Core Java**, **JDBC**, and **PostgreSQ
 
 ---
 
-Technologies Used
+**Technologies Used
 
 - **Core Java** – Application logic using OOP principles.
 - **JDBC** – Java Database Connectivity to PostgreSQL.
@@ -24,7 +24,7 @@ Technologies Used
 
 ---
 
- Dependencies
+** Dependencies
 
 The following Maven dependency is required:
 
@@ -36,7 +36,8 @@ The following Maven dependency is required:
 </dependency>
 Add this to your pom.xml.
 
-Prerequisites
+
+**Prerequisites
 Ensure the following are installed on your system:
 
 JDK 17 or higher
@@ -48,7 +49,10 @@ PostgreSQL 15 or higher
  PostgreSQL Database Setup
 Create the following table in your PostgreSQL database:
 
-sql
+
+**sql
+
+
 Copy code
 CREATE TABLE employees (
     id SERIAL PRIMARY KEY,
@@ -59,21 +63,22 @@ CREATE TABLE employees (
 );
  Make sure your database connection details are correctly set in your Java project.
 
-Structure
+**Structure
 
 <img width="447" height="557" alt="image" src="https://github.com/user-attachments/assets/64c8e170-d7e6-41ef-9fe0-5074ae41f342" />
 
 
-Output Console
+**Output Console
 
 <img width="421" height="227" alt="image" src="https://github.com/user-attachments/assets/02353735-2eed-45ea-8193-dd6fb56548a9" />
 
-Group member
+**Group member
 
 Shreya Shankar Tonape
 Sakshi Shivaji Khandagale
 
- Contact
+ **Contact
+
 Your Name: Shreya Shankar Tonape
  Email: shreyatonape65@gmail.com
  GitHub: Shreyatonape
