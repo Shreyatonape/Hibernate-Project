@@ -4,26 +4,14 @@
 
 <hibernate-configuration>
     <session-factory>
-
-        <!-- ✅ PostgreSQL JDBC Driver -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-
-        <!-- ✅ JDBC URL -->
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/Hibernate</property>
-
-        <!-- ✅ Credentials -->
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">pass@123</property>
-
-        <!-- ✅ Hibernate Properties -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
-
-        <!-- ✅ Auto table update -->
         <property name="hibernate.hbm2ddl.auto">update</property>
-
-        <!-- ✅ Entity Mappings -->
         <mapping class="com.example.model.Region"/>
         <mapping class="com.example.model.Country"/>
 
