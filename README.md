@@ -112,6 +112,10 @@ Edit
     </session-factory>
 </hibernate-configuration>
 
+Output Structure:
+<img width="462" height="242" alt="image" src="https://github.com/user-attachments/assets/bbb973dd-6273-43cb-9414-6d2a99ce0026" />
+
+
  How to Run
 
 Clone or download the project.
