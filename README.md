@@ -124,7 +124,7 @@ Run the Main.java file.
 
 Use the console menu to perform CRUD operations.
 
-## Author
+## contact
 Name: Shreya Shankar Tonape
 Email: —shreyatonape65@gmail.com
 GitHub: —Shreyatonape
