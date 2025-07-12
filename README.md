@@ -116,7 +116,7 @@ Edit
 
 Clone or download the project.
 
-Import it as a Maven Project into your IDE (e.g., IntelliJ, Eclipse).
+Import it as a Maven Project into your IDE (e.g., STS, Eclipse).
 
 Configure PostgreSQL database and update credentials in hibernate.cfg.xml.
 
